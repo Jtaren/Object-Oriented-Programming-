@@ -22,7 +22,7 @@ print(emp_1.pay)
 
 class Employee:
 
-raise_amount = 1.04
+  raise_amount = 1.04
   
   def __init__(self, first, last, pay):
     self.first = first
