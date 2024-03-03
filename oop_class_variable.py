@@ -6,11 +6,11 @@ class Employee:
     self.pay = pay
     self.email = first + '.' + last + '@company.com'
 
-def fullname(self):
-  return '{} {}'.format(self.first, self.last)
+  def fullname(self):
+    return '{} {}'.format(self.first, self.last)
 
-def apply_raise(self):
-  self.pay = int(self.pay * 1.04)
+  def apply_raise(self):
+    self.pay = int(self.pay * 1.04)
 
 emp_1 = Employee('Corey', 'Schafer', 50000)
 emp_2 = Employee('Test', 'User', 60000)
