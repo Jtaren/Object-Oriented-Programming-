@@ -43,6 +43,9 @@ print(emp_1.pay)
 emp_1.apply_raise()
 print(emp_1.pay)
 
+print(Employee.__dict__)
+emp_1.raise_amount = 1.05
+
 print(Employee.raise_amount)
 print(emp_1.raise_amount)
 print(emp_2.raise_amount)
