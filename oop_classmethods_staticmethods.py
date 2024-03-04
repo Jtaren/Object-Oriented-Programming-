@@ -33,10 +33,9 @@ emp_str_1 = 'John-Doe-70000'
 emp_str_2 = 'Steve-Smith-30000'
 emp_str_3 = 'Jane-Doe-90000'
 
+#first, last, pay = emp_str_1.split('-')
+
 """
-first, last, pay = emp_str_1.split('-')
-
-
 new_emp_1 = Employee(first, last, pay)
 """
 
