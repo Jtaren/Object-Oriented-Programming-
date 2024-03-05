@@ -22,7 +22,7 @@ class Developer(Employee):
     self.prog_lang = prog_lang
 
 dev_1 = Developer('Corey', 'Schafer', 50000, 'Python')
-dev_2 = Employee('Test', 'Employee', 60000, 'Java')
+dev_2 = Developer('Test', 'Employee', 60000, 'Java')
 
 print(dev_1.email)
 print(dev_1.prog_lang)
