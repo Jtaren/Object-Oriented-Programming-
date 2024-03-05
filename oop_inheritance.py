@@ -17,7 +17,7 @@ class Employee:
 class Developer(Employee):
   raise_amt = 1.10
 
-dev_1 = Employee('Corey', 'Schafer', 50000)
+dev_1 = Developer('Corey', 'Schafer', 50000)
 dev_2 = Employee('Test', 'Employee', 60000)
 
 print(dev_1.email)
