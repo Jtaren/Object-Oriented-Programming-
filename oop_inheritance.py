@@ -17,9 +17,9 @@ class Employee:
 class Developer(Employee):
   raise_amt = 1.10
 
-def __init__(self, first, last, pay, prog_lang):
-  super().__init__(first, last, pay)
-  self.prog_lang = prog_lang
+  def __init__(self, first, last, pay, prog_lang):
+    super().__init__(first, last, pay)
+    self.prog_lang = prog_lang
 
 dev_1 = Developer('Corey', 'Schafer', 50000, 'Python')
 dev_2 = Employee('Test', 'Employee', 60000, 'Java')
