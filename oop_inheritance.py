@@ -14,9 +14,16 @@ class Employee:
   def apply_raise(self):
     self.pay = int(self.pay * self.raise_amt)
 
+class Developer(Employee):
+  raise_amt = 1.10
+
 dev_1 = Employee('Corey', 'Schafer', 50000)
 dev_2 = Employee('Test', 'Employee', 60000)
 
 print(dev_1.email)
 print(dev_2.email)
+
+print(dev_1.pay)
+dev_1.apply_raise()
+print(dev_1.pay)
 
