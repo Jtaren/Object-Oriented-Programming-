@@ -1,1 +1,1 @@
-Python classes and objects
+Learning Python classes and objects.
